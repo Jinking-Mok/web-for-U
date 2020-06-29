@@ -20,20 +20,33 @@
       </div>
       <div class="feeling">
         <label for="feel">여기에 쓸 수 있어요 :D</label><br>
-        <input type="text" id="feel" name="feel">
+        <form action="https://search.naver.com/search.naver" class="search-form" target="_blank">
+          <input id="inputSearch" type="text" name="query" class="naver-search-input" placeholder="우리윱니 뭐가 궁금해요?" accesskey="s" maxlength="255" autocomplete="off" spellcheck="false">
+          <a href="https://www.naver.com" class="naver-logo" data-logging-type="NTP.naver"></a>
+          <input type="hidden" name="ie" value="utf8">
+          <input type="hidden" name="sm" value="whl_nht">
+          <button type="submit" class="naver-search-btn" hidden=""></button>
+          <div class="autocomplete-suggestions " style="display: none; width: 500px;"></div>
+        </form> 
       </div>
       <div class="some">
         Love you, all my heart.
       </div>
-      <div class="links">
-          <a href="https://www.khu.ac.kr/kor/main/index.do" target="_blank">
-            <button id="bt1">경희대</button>
-          </a>
-          <a href="https://www.naver.com" target="_blank">
-            <button id="bt2">네이버</button>
-          </a>
-          <a href="http://www.lessoninfo.co.kr/" target="_blank">
-            <button id="bt3">레슨인포</button>
-          </a>
+      <div class="box">
+        <a href="https://www.khu.ac.kr/kor/main/index.do" target="_blank">
+        <button id="bt1">경희대</button>
+        </a>
+      </div>
+      <div class="box">
+        <a href="https://www.naver.com" target="_blank">
+          <button id="bt2">네이버</button>
+        </a>
+      </div>
+      <div class="box">
+        <a href="http://www.lessoninfo.co.kr/" target="_blank">
+          <button id="bt3">레슨인포</button>
+        </a>
+      </div>
+          
       </div>
   </html>
