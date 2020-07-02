@@ -36,7 +36,7 @@ html {
   position: fixed;
   margin: 0;
   padding: 0;
-  top: 35px;
+  top: 37px;
   left: 20px;
   font-weight: bold;
   font-size: 70px;
@@ -54,17 +54,34 @@ html {
 }
 .content {
   position: relative;
+  display: flex;
   width: 100%;
   height: 50%;
   padding-top: 100px;
   background-color: yellow;
 }
-.side {
-  position: sticky;
-  position: relative;
-  display: flex;
-}
 .tbox {
+  background-color: red;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+.side {
+  position: fixed;
+  top: 200px;
+  right: 0;
+  display: flex;
+  width: 50px;
+  height: 300px;
+  flex-direction: column;
+  z-index: 3;
+}
+.sidebox {
+  opacity: 80%;
+  background-color: royalblue;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
 }
 .linkicon {
   position: relative;

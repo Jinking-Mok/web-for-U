@@ -45,11 +45,26 @@
       <div class="sidebox"></div>
     </div>
     <div class="content">
-      <div class="tbox">
-        img가 들어갈꺼야~ 동그랗게
+      <div class="tbox" style="width: 200px; height: 200px;">
+        <img src="메인사진.png" name="메인사진" />
       </div>
       <div class="tbox">
-        그 밑에 사귄 날짜 카운트
+        <form
+        action="https://search.naver.com/search.naver"
+        class="search-form"
+        target="_blank"
+        >
+        <input
+            id="inputSearch"
+            type="text"
+            name="query"
+            class="naver-search-input"
+            placeholder="우리윱니 뭐가 궁금해요?"
+            accesskey="s"
+            maxlength="500px"
+            autocomplete="off"
+            spellcheck="false"
+          />
       </div>
       <div class="tbox">
         그 밑에 검색창
@@ -60,22 +75,7 @@
     </div>
     <!-- <div class="menulayer">
     <div class="searchbar">
-      <form
-      action="https://search.naver.com/search.naver"
-      class="search-form"
-      target="_blank"
-      >
-      <input
-          id="inputSearch"
-          type="text"
-          name="query"
-          class="naver-search-input"
-          placeholder="우리윱니 뭐가 궁금해요?"
-          accesskey="s"
-          maxlength="255"
-          autocomplete="off"
-          spellcheck="false"
-        />
+     
         <a
           href="https://www.naver.com"
           class="naver-logo"
