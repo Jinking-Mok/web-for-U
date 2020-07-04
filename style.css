@@ -53,35 +53,45 @@ html {
   color: white;
 }
 .content {
-  position: relative;
   display: flex;
   width: 100%;
   height: 50%;
   padding-top: 100px;
-  background-color: yellow;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .tbox {
-  background-color: red;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 300px;
-  height: 300px;
+  height: 100px;
 }
 .side {
   position: fixed;
-  top: 200px;
-  right: 0;
+  top: 150px;
+  left: 0;
   display: flex;
-  width: 50px;
-  height: 300px;
+  width: 100px;
+  height: 400px;
+  align-items: flex-start;
   flex-direction: column;
   z-index: 3;
 }
 .sidebox {
-  opacity: 80%;
-  background-color: royalblue;
-  width: 50px;
+  opacity: 60%;
+  background-color: green;
+  width: 70px;
   height: 50px;
-  border: 1px solid black;
+  margin-top: 5px;
+  transition: 0.3s ease-in-out;
+}
+.sidebox:hover {
+  opacity: 80%;
+  background-color: pink;
+  transform: scale(1.5, 1.1);
 }
 .linkicon {
   position: relative;
@@ -89,22 +99,10 @@ html {
   height: 50%;
   background-color: red;
 }
-/* .menulayer {
-  width: 100%;
-  height: 100px;
-  background-color: rgb(233, 172, 157);
+#inputSearch {
+  width: ;
 }
-#main {
-  display: inline;
-  color: white;
-  font-size: 50px;
-  margin-top: 25px;
-  margin-bottom: 25px;
+#search {
+  width: 50px;
+  height: 50px;
 }
-.logos {
-  display: inline-block;
-}
-#naverlogo {
-}
-#youtubelogo {
-} */
