@@ -89,8 +89,6 @@ html {
     transform: none;
   }
 }
-#메인사진:hover + {
-}
 .search-form {
   display: flex;
   justify-content: center;
@@ -135,7 +133,7 @@ html {
   flex-wrap: wrap;
   margin-top: 0;
   padding-top: 0;
-  width: 75%;
+  width: 600px;
   height: 250px;
   /* background-color: whitesmoke; */
 }
