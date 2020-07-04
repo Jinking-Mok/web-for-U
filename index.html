@@ -36,17 +36,9 @@
       <div class="name">YUBNIVER</div>
       <div class="click">- click! -</div>
     </div>
-    <div class="side">
-      <div class="sidebox"></div>
-      <div class="sidebox"></div>
-      <div class="sidebox"></div>
-      <div class="sidebox"></div>
-      <div class="sidebox"></div>
-      <div class="sidebox"></div>
-    </div>
-    <div class="content">
+      <div class="content">
       <div class="tbox" style="width: 200px; height: 200px;">
-        <img src="메인사진.png" name="메인사진" />
+        <img id="메인사진" src="메인사진.png" name="메인사진" />
       </div>
       <div class="tbox">
         <form
@@ -59,7 +51,7 @@
             type="text"
             name="query"
             class="naver-search-input"
-            placeholder="우리윱니 뭐가 궁금해요?"
+            placeholder="  우리윱니 뭐가 궁금해요?"
             accesskey="s"
             maxlength="500px"
             autocomplete="off"
@@ -70,27 +62,60 @@
           </button>
       </div>
     </div>
-    <div class="linkicon">
-      일단 이거 만드는거 보류(사이드바랑 기능이 겹침!)
+    <!-- 여기서부터 검색창 하단 -->
+    <div class="linkcontainer">
+      <div class="linkbox">
+        <div class="element">
+          <a href="https://mail.google.com/mail/" name="gmail" target="_blank">
+            <img class="links" src="gmail.png" alt="gmail">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://info21.khu.ac.kr/" name="info21" target="_blank">
+            <img class="links" src="info21.jpg" alt="info21">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://khcanvas.khu.ac.kr/" name="e-campus" target="_blank">
+            <img class="links" src="e-campus.jpg" alt="e-campus">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://classroom.google.com/" name="classroom" target="_blank">
+            <img class="links" src="classroom.jpg" alt="classroom">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://klas.khu.ac.kr/" name="KLAS" target="_blank">
+            <img class="links" src="KLAS.jpg" alt="KLAS">
+          </a>
+        </div>
+        <div class="element">
+          <a href="http://www.lessoninfo.co.kr/" name="lessoninfo" target="_blank">
+            <img class="links" src="lessoninfo.jpg" alt="lessoninfo">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://papago.naver.com/" name="papago" target="_blank">
+            <img class="links" src="papago.jpg" alt="papago">
+          </a>
+        </div>
+        <div class="element">
+          <a href="https://dict.naver.com/" name="dict" target="_blank">
+            <img class="links" src="dict.jpg" alt="dict" style="box-shadow: 0px 2px 3px grey;">
+          </a>
+        </div>
+        <div class="element">
+          <a href="" name="" target="_blank">
+            <img class="links" src="" alt="">
+          </a>
+        </div>
+        <div class="element">
+          <a href="" name="" target="_blank">
+            <img class="links" src="" alt="">
+          </a>
+        </div>
+      </div>
     </div>
-    <!-- <div class="menulayer">
-    <div class="searchbar">
-     
-        <a
-          href="https://www.naver.com"
-          class="naver-logo"
-          data-logging-type="NTP.naver"
-        ></a>
-        <input type="hidden" name="ie" value="utf8" />
-        <input type="hidden" name="sm" value="whl_nht" />
-        <button type="submit" class="naver-search-btn" hidden=""></button>
-        <div
-          class="autocomplete-suggestions"
-          style="display: none; width: 500px;"
-        ></div>
-      </form>
-    </div>
-    <div class="linkicon">
-    </div> -->
   </body>
 </html>
